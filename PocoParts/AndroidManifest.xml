@@ -45,13 +45,16 @@
         <activity
             android:name=".DeviceSettingsActivity"
             android:exported="false"
-            android:icon="@drawable/ic_poco"
+            android:icon="@drawable/ic_parts_device"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="1" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
 
             <meta-data
