@@ -46,7 +46,7 @@
                 android:targetClass="org.lineageos.settings.touchsampling.TouchSamplingSettingsActivity" />
         </Preference>
 
-     <SwitchPreference
+     <com.ssos.support.preferences.SwitchPreference
         android:key="fps_info"
         android:icon="@drawable/ic_fps_info"
         android:title="@string/fps_info_title"
