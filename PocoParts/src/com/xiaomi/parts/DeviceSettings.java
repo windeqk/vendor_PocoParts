@@ -27,7 +27,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import android.content.Context;
 import android.content.SharedPreferences;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.util.Log;
 
 import com.xiaomi.parts.kcal.KCalSettingsActivity;

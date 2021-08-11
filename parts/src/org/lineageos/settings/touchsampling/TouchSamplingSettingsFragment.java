@@ -24,7 +24,7 @@ import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 
 import org.lineageos.settings.R;
 import org.lineageos.settings.touchsampling.TouchSamplingUtils;

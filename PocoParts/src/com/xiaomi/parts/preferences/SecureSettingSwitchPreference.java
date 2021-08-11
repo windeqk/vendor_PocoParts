@@ -18,7 +18,7 @@ package com.xiaomi.parts.preferences;
 
 import android.content.Context;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.util.AttributeSet;
 
 public class SecureSettingSwitchPreference extends SwitchPreference {
