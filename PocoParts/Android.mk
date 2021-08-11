@@ -3,9 +3,10 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    androidx.preference_preference \
     SettingsLib \
-    airbnb-lottie
+    airbnb-lottie \
+    androidx.preference_preference \
+    VendorSupport-preference
 
 LOCAL_JAVA_LIBRARIES := \
     airbnb-lottie
